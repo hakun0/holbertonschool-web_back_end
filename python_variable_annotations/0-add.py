@@ -1,15 +1,18 @@
-    #!/usr/bin/env python3
-# 0-add.py
+#!/usr/bin/env python3
+"""
+    Module with typing Python
+"""
+
 
 def add(a: float, b: float) -> float:
     """
-    Adds two floats together and returns the result.
+        Args:
+            a: The first parameter
+            b: The second parameter
 
-    Parameters:
-    a (float): The first number to add.
-    b (float): The second number to add.
+        Return:
+            Sum of two floats
 
-    Returns:
-    float: The sum of a and b.
     """
-    return a + b
+
+    return (a + b)
