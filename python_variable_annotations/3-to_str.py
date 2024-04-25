@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
-# 3-to_str.py
+"""
+    Conver float to integer
+"""
+
 
 def to_str(n: float) -> str:
     """
-    Returns the string representation of the given float.
+        Args:
+            n: float number
 
-    Parameters:
-    n (float): A floating-point number.
-
-    Returns:
-    str: The string representation of n.
+        Return:
+            Float of type string
     """
+
     return str(n)

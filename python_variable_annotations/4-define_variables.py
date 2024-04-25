@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-# 4-define_variables.py
+"""
+    Variables to annotate
+"""
+
 
 a: int = 1
 pi: float = 3.14

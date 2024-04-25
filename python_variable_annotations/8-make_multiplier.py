@@ -1,18 +1,21 @@
 #!/usr/bin/env python3
-# 8-make_multiplier.py
+"""
+    Callable function
+"""
 from typing import Callable
+
 
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
     """
-    Creates a multiplier function that multiplies its input by a predefined multiplier.
+        Args:
+            multiplier: factor
 
-    Parameters:
-    multiplier (float): The multiplier value.
-
-    Returns:
-    Callable[[float], float]: A function that multiplies a float by the multiplier.
+        Return:
+            multiplication in float
     """
-    def multiplier_function(value: float) -> float:
-        return value * multiplier
-    
-    return multiplier_function
+
+    def x(f: float) -> float:
+        """ Get the second argument somthing like JS """
+        return float(f * multiplier)
+
+    return x

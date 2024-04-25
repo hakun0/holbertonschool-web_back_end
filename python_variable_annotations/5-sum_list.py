@@ -1,15 +1,22 @@
 #!/usr/bin/env python3
-# 5-sum_list.py
+"""
+    List of floats annotations
+"""
 from typing import List
+
 
 def sum_list(input_list: List[float]) -> float:
     """
-    Calculates the sum of all elements in a list of floats.
+        Args:
+            input_list: float numbers
 
-    Parameters:
-    input_list (List[float]): A list of floating point numbers.
-
-    Returns:
-    float: The sum of all elements in the list.
+        Return:
+            Sum of the float numbers
     """
-    return sum(input_list)
+
+    result: float = 0
+
+    for x in input_list:
+        result += x
+
+    return result

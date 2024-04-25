@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
-# 2-floor.py
+"""
+    Truncate float to integer
+"""
 
-import math
 
 def floor(n: float) -> int:
     """
-    Returns the floor of the given float.
+        Args:
+            n: float number
 
-    Parameters:
-    n (float): A floating-point number.
-
-    Returns:
-    int: The floor value of n.
+        Return:
+            Float number truncated to floor
     """
-    return math.floor(n)
+
+    return int(n)

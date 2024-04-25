@@ -1,15 +1,18 @@
 #!/usr/bin/env python3
-# 9-element_length.py
-from typing import Iterable, Sequence, List, Tuple
+"""
+    Duck type and iteration
+"""
+from typing import Iterable, Sequence, List, Union, Tuple
 
-def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
+
+def element_length(lst: Iterable[Sequence])\
+        -> List[Tuple[Sequence, int]]:
     """
-    Returns a list of tuples containing elements from the input iterable and their lengths.
+        Args:
+            lst: Sequence of list
 
-    Parameters:
-    lst (Iterable[Sequence]): An iterable of sequences.
-
-    Returns:
-    List[Tuple[Sequence, int]]: A list of tuples where each tuple consists of a sequence and its length.
+        Return:
+            List of tuple of sequence of integers
     """
+
     return [(i, len(i)) for i in lst]

@@ -1,16 +1,21 @@
 #!/usr/bin/env python3
-# 7-to_kv.py
-from typing import Tuple, Union
+"""
+    Mixed Tuple
+"""
+from typing import Union, Tuple
+
 
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """
-    Takes a string and an int or float, returns a tuple of the string and the square of the number as a float.
+        Args:
+            k: String
+            v: Union: Can be int or float
 
-    Parameters:
-    k (str): The string component of the tuple.
-    v (Union[int, float]): The numeric component to be squared.
-
-    Returns:
-    Tuple[str, float]: A tuple where the first element is the string k and the second element is the square of v as a float.
+        Return:
+            Tuple with string and int or float
     """
-    return (k, float(v ** 2))
+
+    cncat: Tuple(str, Union[int, float])
+    cncat = (k, v**2)
+
+    return cncat
