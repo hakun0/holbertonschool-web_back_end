@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 """ Measure times """
 import asyncio
