@@ -7,6 +7,7 @@
     4. Read and filter data
 """
 
+
 import re
 from typing import List
 import logging
