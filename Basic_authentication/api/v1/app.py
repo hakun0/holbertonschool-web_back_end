@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 """
 Route module for the API
 Ce fichier est le point d'entrée principal de l'API Flask.
